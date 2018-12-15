@@ -3,8 +3,59 @@ html {
   font-family: Lato, sans-serif;
   line-height: 1.5;
   background-color: #eee9de;
-  }
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  padding: 2em 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 25em;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  padding: 0 0 1em;
+}
+
+.hline1 {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #666;
+  border-style: solid;
+  border-color: #666;
+  color: #eee9de;
+  padding: .4em .75em .5em;
+}
